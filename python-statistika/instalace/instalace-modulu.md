@@ -4,7 +4,7 @@ Pokud zatím nemáš nainstalovaný Python a Visual Studio Code, postupuj dle in
 * [Instalace jazyka Python](https://kodim.cz/programovani/uvod-do-progr-1/priprava/jazyky-nastroje/instalace-python)
 * [Rozšíření VS Code pro Python](https://kodim.cz/programovani/uvod-do-progr-1/priprava/jazyky-nastroje/instalace-rozsireni-vscode)
 
-V rámci kurzu budeme používat modul pro práci s daty `pandas`, `matplotlib` a `seaborn`, modul pro práci s daty `pandas` a moduly pro vědecké výpočty `statsmodels` a `scipy`. Doporučuji též instalaci modulů `jupyterlab` a `ipykernel` pro práci s Jupyter notebooky.
+V rámci kurzu budeme používat modul pro práci s daty `pandas`, moduly pro vizualizace `matplotlib` a `seaborn` a moduly pro vědecké výpočty `statsmodels` a `scipy`. Doporučuji též instalaci modulů `jupyterlab` a `ipykernel` pro práci s Jupyter notebooky.
 
 Spusť Visual Studio Code a otevřete si nový terminál (z horní lišty vyberte **Terminal → New Terminal**).
 
@@ -25,4 +25,3 @@ Instalaci můžeš ověřit tím, že si otevřeš nový program, vložíš do n
 ```py
 import pandas
 ```
-
