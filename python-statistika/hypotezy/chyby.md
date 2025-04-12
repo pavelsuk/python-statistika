@@ -1,4 +1,4 @@
-### Čtení na doma: Chyba I. a II. druhu
+## Čtení na doma: Chyba I. a II. druhu
 
 Při testování se můžeme dopustit 2 chyb, které jsou popsány v tabulce níže.
 
