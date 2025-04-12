@@ -34,7 +34,7 @@ Ada dále provede sběr dat. Vyrazí tedy do školy a v jedné třídě rozděl�
 
 ::fig[]{src=assets/ada_04.png}
 
-Data máme v souboru [student_results.csv](student_results.csv). Stejně jako Ada použijeme modul `pandas`.
+Data máme v souboru [student_results.csv](assets/student_results.csv). Stejně jako Ada použijeme modul `pandas`.
 
 ::fig[]{src=assets/ada_06.png}
 
