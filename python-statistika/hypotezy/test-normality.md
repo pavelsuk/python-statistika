@@ -37,4 +37,4 @@ I Mann-Whitney test potvrdil královně Adě účinnost přípravku.
 
 A to je konec našeho příběhu...
 
-::fig[]{src=assets/ada_10.webp size=50}
+::fig[]{src=assets/ada_10.png size=50}
