@@ -3,11 +3,11 @@
 Uvažujme příklad království, kde vládne královna Ada.
 
 
-::fig[]{src=assets/ada_01.png size=50}
+::fig[]{src=assets/ada_01.png}
 
 Jednou za ní přijde obchodník s tím, že má zázračný přípravek, který zlepšuje paměť a soustředění. Ada si není jistá, že přípravek zkustečně funguje, a tak bude chtít ověřit jeho kvalitu pomocí experimentu. Experiment pak vyhodnotí a rozhodne, jestli přípravek pomáhá.
 
-::fig[]{src=assets/ada_02.png size=50}
+::fig[]{src=assets/ada_02.png}
 
 U experimentu bychom měli využít jednoduché pravidlo: Nikdo ze studentů a studentek by neměl vědět, jestli dostal přípravek. To Ada vyřeší tak, že polovině dá přípravek a polovině placebo, které chutná a vypadá stejně.
 
@@ -28,15 +28,15 @@ Výsledkem našeho testu by mělo být rozhodnutí, jestli platí alternativní 
 
 Ada tedy připraví záhadný přípravek podle formule, kterou jí dal cizinec.
 
-::fig[]{src=assets/ada_03.png size=50}
+::fig[]{src=assets/ada_03.png}
 
 Ada dále provede sběr dat. Vyrazí tedy do školy a v jedné třídě rozdělí studenty a studentky na dvě skupiny. Jedné dá přípravek a druhé placebo, přičemž nikdo ze studentů neví, co dostal.
 
-::fig[]{src=assets/ada_04.png size=50}
+::fig[]{src=assets/ada_04.png}
 
 Data máme v souboru [student_results.csv](student_results.csv). Stejně jako Ada použijeme modul `pandas`.
 
-::fig[]{src=assets/ada_06.png size=50}
+::fig[]{src=assets/ada_06.png}
 
 Níže je kód, pomocí kterého data načteme z tabulky csv.
 
@@ -58,7 +58,7 @@ data.mean()
 
 Ada si tedy řekla, že přípravek musí fungovat. Pak ji ale napadla jedna zákeřná myšlenka: Co když je to náhoda? Kdybychom si rozdělil data na nějaké dvě různé skupiny, výsledky budou taky různé, protože každý ze studentů získal jiný počet bodů. Není tedy pouhou náhodou, že průměry jsou různé?
 
-::fig[]{src=assets/ada_07.png size=50}
+::fig[]{src=assets/ada_07.png}
 
 K tomu právě slouží testování hypotéz. Řekne nám, **s jakou pravděpodobností** je takový výsledek **náhoda**.
 

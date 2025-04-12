@@ -2,7 +2,7 @@
 
 Ada dále potřebuje zvolit vhodný test pro ověření naší hypotézy. Cílem testu je ověřit, zda platí alternativní hypotéza. Na různé dvojice hypotéz ale existují různé testy a je potřeba použít vhodný test pro daný případ. Ada nejprve vyrazí do knihovny a začne studovat učebnice statistiky. Tam se dočte následující.
 
-::fig[]{src=assets/ada_05.png size=50}
+::fig[]{src=assets/ada_05.png}
 
 Statistických testů existuje obrovské množství a výběr toho správného závisí obecně na několika faktech:
 
@@ -49,7 +49,7 @@ Při testu hypotézy volíme tzv. hladinu významnosti. Tou říkáme, jak malá
 
 Nyní se Ada musí vrátit k počítači a pustit se do výpočtu.
 
-::fig[]{src=assets/ada_09.png size=50}
+::fig[]{src=assets/ada_09.png}
 
 My zkusíme ChatGPT požádat, aby nám pomohl a připravil kód pro výpočet.
 
@@ -85,4 +85,4 @@ V našem případě tedy platí, že p-hodnota je přibližně 1 %. Pravděpodob
 
 Ada se rozhodla, že zkusí výsledky prezentovat pomocí grafů. My jí s tím pomůžeme. Ale nejprve nás čeká cvučení.
 
-::fig[]{src=assets/ada_08.png size=50}
+::fig[]{src=assets/ada_08.png}
