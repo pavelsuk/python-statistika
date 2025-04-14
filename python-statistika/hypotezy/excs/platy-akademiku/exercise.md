@@ -3,7 +3,7 @@ title: Platy akademiků
 demand: 2
 ---
 
-Stáhli si soubor [salaries-2022.csv](assets/salaries-2022.csv), který obsahuje data o platech akademiků na univerzitě v belgickém Waterloo. Tvým úkolem je ověřit tvrzení, že s kariérním postupem vzroste akademickým pracovníkům a pracovnicím jejich průměrný plat. Konkrétně nám půjde o dvě pozice (sloupec `Position title`) - `Professor` a `Associate Professor` (obdoba české pozice docent(ka)). Protože profesor je vyšší pozice než docent, předpokládáme, že profesoři a profesorky by měi mít vyšší platy než docenti a docentky.
+Stáhni si soubor [salaries-2022.csv](assets/salaries-2022.csv), který obsahuje data o platech akademiků na univerzitě v belgickém Waterloo. Tvým úkolem je ověřit tvrzení, že s kariérním postupem vzroste akademickým pracovníkům a pracovnicím jejich průměrný plat. Konkrétně nám půjde o dvě pozice (sloupec `Position title`) - `Professor` a `Associate Professor` (obdoba české pozice docent(ka)). Protože profesor je vyšší pozice než docent, předpokládáme, že profesoři a profesorky by měi mít vyšší platy než docenti a docentky.
 
 Zobraz si data, tentokrát s využitím histogramu. Tipni si, jestli data budou mít normální rozdělení. Především se zamysli nad tím, jestli jsou data symetrická. Poté ověř normalitu dat s využitím testu normality.
 
