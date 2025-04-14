@@ -5,7 +5,7 @@
 Na grafu vidíme:
 
 - Medián (čára uprostřed).
-- Kvartily (tvorí barevný obdelník, dolní hranice obdelníku je dolní kvartil a horní hranice obdélníku horní kvartil).
+- Kvartily (tvoří barevný obdelník, dolní hranice obdélníku je dolní kvartil a horní hranice obdélníku horní kvartil).
 - Poslední jsou čáry označené jako `whis` (od slova whisker - kočičí vousy). Ty zobrazují rozsah ještě větší části hodnot. Nastavme ho tak, aby označoval 90 % všech hodnot, tj. hodnoty mezi 5%ním a 95%ním kvantilem.
 
 ```python
@@ -20,13 +20,13 @@ Histogram je graf, který se skládá ze sloupců. V případě bodů z testu vi
 sns.histplot(data=data)
 ```
 
-Použijme nyní funkci `displot` a nastavme parametr `kde=True`. Nyní v grafu vidíme i čáku, která je označovaná jako odhad funkce hustoty (*density function*). Funkci hustoty můžeme použít podobě jako histogram, ale s tím rozdílem, že funkce hustoty nám "prozradí" procento hodnot, které se nachází v libovolném intervalu.
+Použijme nyní funkci `displot` a nastavme parametr `kde=True`. Nyní v grafu vidíme i čáru, která je označovaná jako odhad funkce hustoty (*density function*). Funkci hustoty můžeme použít podobně jako histogram, ale s tím rozdílem, že funkce hustoty nám "prozradí" procento hodnot, které se nachází v libovolném intervalu.
 
 ```python
 sns.displot(data=data, kde=True)
 ```
 
-Funkci hustoty můžeme sestrojit (odhadnout) z nějakých dat. Existují ale tzv. statistická rozdělení (*statistical distribution*), což jsou v podstatě vzorečky pro funkci hustoty. 
+Funkci hustoty můžeme sestrojit (odhadnout) z nějakých dat. Existují ale tzv. statistická rozdělení (*statistical distribution*), což jsou v podstatě vzorečky pro funkci hustoty.
 
 Většina funkcí hustoty má parametry, pomocí kterých můžeme měnit tvar nebo polohu funkce. Nejznámějším statistickým rozdělením je **normální (Gaussovo) rozdělení** (*normal distribution*). Normální rozdělení má spousta "jevů", které se vyskytují v přírodě, například délka, výška nebo hmotnost živé tkáně atd. Používá se také ve financích na oceňování některých cenných papírů. Normální rozdělení mají často i chyby měření při experimentech.
 

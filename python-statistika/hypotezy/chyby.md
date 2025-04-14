@@ -5,7 +5,7 @@ Při testování se můžeme dopustit 2 chyb, které jsou popsány v tabulce ní
 |   | Průměr bodů se neliší | Přípravek zvyšuje průměr |
 |---|---|---|
 | **Neprokázali jsme rozdíl** | Správný výsledek | Chyba II. druhu (*Type II Error*) |
-| **Tvrdíme, že jsme prokáhali účinnost přípravku**  | Chyba I. druhu (*Type I Error*) | Správný výsledek |
+| **Tvrdíme, že jsme prokázali účinnost přípravku**  | Chyba I. druhu (*Type I Error*) | Správný výsledek |
 
 Rozepišme si nyní tyto chyby obecně
 
