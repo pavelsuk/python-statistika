@@ -15,7 +15,7 @@ import pandas as pd  # Import knihovny pandas pro práci s daty
 
 # Načtení CSV souboru s daty o platech do datového rámce
 # Ty pravděpodobně podadresář statistika-1-assets nemáš, tak ho smaž
-data = pd.read_csv("statistika-1-assets/salaries-2022.csv")
+data = pd.read_csv("salaries-2022.csv")
 
 # Přetvoření tabulky tak, aby se hodnoty "Salary paid ($)" seskupily pod jediný sloupec "variable"
 data = data.melt("Position title", "Salary paid ($)")

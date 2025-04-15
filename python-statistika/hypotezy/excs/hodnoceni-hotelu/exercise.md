@@ -3,7 +3,7 @@ title: Hodnocení hotelů
 demand: 2
 ---
 
-Stáhni si soubor [global_hotel_reviews.csv](assets/global_hotel_reviews.csv). Naším úkolem je porovnat recenze ve Francii a Švýcarsku. Číselné hodnocení hotelů je ve sloupci `Rating` a obsahuje pouze hodnoty 2, 4, 6, 8 a 10. Země, kde se hotel nachází, je ve sloupci `Country`.
+Stáhni si soubor [global_hotel_reviews.csv](assets/global_hotel_reviews.csv). Naším úkolem je porovnat průměrné hodnocení hotelů ve Francii a Švýcarsku. Číselné hodnocení je ve sloupci `Rating` a obsahuje pouze hodnoty 2, 4, 6, 8 a 10. V tomto případě použij Mann-Whitney test, protože data nemají normální rozdělení. Země, kde se hotel nachází, je ve sloupci `Country`.
 
 1. Definuj testové hypotézy.
 1. Proveď test hypotézy a vyhodnoť výsledky.
