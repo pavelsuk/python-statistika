@@ -80,7 +80,7 @@ statistic, p_value = stats.ttest_ind(data['Pripravek'], data['Placebo'], alterna
 print(f"P-hodnota: {p_value}")
 ```
 
-V našem případě tedy platí, že p-hodnota je přibližně 1 %. Pravděpodobnost, že je tento výsledek náhoda, je tedy velmi malá a my jsme dospěli k tomu, že přípravek funguje.
+V našem případě tedy platí, že p-hodnota je méně než 1 %. Pravděpodobnost, že je tento výsledek náhoda, je tedy velmi malá a my jsme dospěli k tomu, že přípravek funguje.
 
 
 Ada se rozhodla, že zkusí výsledky prezentovat pomocí grafů. My jí s tím pomůžeme. Ale nejprve nás čeká cvičení.
